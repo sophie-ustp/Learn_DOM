@@ -13,8 +13,10 @@ myList.children[1].textContent = "Strawberry";
 
 // replace the List
 
-//myList.innerHTML = `
-//  <li>Strawberry</li>
-//  <li>Mango</li>
-//  <li>Pineapple</li>
-//`;
+/* myList.innerHTML = `
+  <li>Strawberry</li>
+  <li>Mango</li>
+  <li>Pineapple</li>
+`;
+
+*/
