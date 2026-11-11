@@ -23,10 +23,11 @@ myList.children[1].textContent = "Strawberry";
 
 let canvas = document.getElementById("myCanvas");
 
-canvas.width = 700;
+canvas.width = 400;
 canvas.height = 300;
+canvas.style.backgroundColor = "lightblue";
 
 let ctx = canvas.getContext("2d");
 
-ctx.fillStyle = "red";
-ctx.fillRect(50, 30, 150, 80);
+ctx.fillStyle = "pink";
+ctx.fillRect(50, 30, 150, 80); 
