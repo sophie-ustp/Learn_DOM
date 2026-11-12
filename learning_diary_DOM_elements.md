@@ -94,9 +94,23 @@ button.disabled = false;
 
 # input 
 
+Bei input handelt es sich um ein Eingabefeld. Und je nach "type" kann es sich um eine Checkbox handeln oder ein Radio-Button sein 
+
+in HTML: 
+<input type="radio" id="sizeSmall" name="size" value="small">
 
 
+–––––––––––– Welche Parameter können verändert werden? ––––––––––-
 
+1. value 
+2. type 
+3. id 
+4. name 
+5. placeholder 
+6. checked
+7. disabled 
+8. required 
+...
 
 
 

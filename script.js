@@ -52,3 +52,8 @@ form.addEventListener("submit", (event) => {
     `Your information:\nColor: ${color}\nName: ${name}\nSize: ${size}\nAgreed: ${agreed}`
   );
 });
+
+/* Input ändern */
+const nameInput = document.getElementById("name");
+nameInput.placeholder = "Enter your name";
+nameInput.required = true;
