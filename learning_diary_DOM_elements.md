@@ -213,4 +213,25 @@ const list = document.getElementById("myList");
 
 # select/option 
 
+durch select wird eine Auswahlliste erstellt. Die Einträge darin sind option- Elemente. 
+(Dropdown-Elemente)
+
+in HTML:
+<select id="color" name="color">
+  <option value="red">Red</option>
+  <option value="green">Green</option>
+  <option value="blue">Blue</option>
+</select>
+
+Javascript wählt das dann wieder über die id aus:
+
+const colorSelect = document.getElementById("color");
+
+–––––––––– Welche Parameter können verändert werden? ––––––––––-
+1. value 
+2. options
+3. selected Index (gibt die Position der ausgewählten Option an)
+4. disabled (true = deaktiviert, false = kann benutzt werden)
+5. required
+6. multiple 
 

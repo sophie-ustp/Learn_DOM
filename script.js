@@ -76,5 +76,11 @@ console.log(table.rows.length); // Anzahl der Zeilen einschließlich Kopfzeile
 table.rows[1].cells[0].textContent = "Jakob"; // ändert "Anna"
 table.style.backgroundColor = "lightyellow";
 
-/* ul ändern */
+/* select/option ändern */
 
+const colorSelect = document.getElementById("color");
+
+const purpleOption = document.createElement("option");
+purpleOption.value = "purple";
+purpleOption.textContent = "Purple";
+colorSelect.appendChild(purpleOption);
