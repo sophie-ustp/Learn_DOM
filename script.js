@@ -34,3 +34,21 @@ ctx.fillRect(50, 30, 150, 80);
 
 /* Formular ändern */
 
+
+/* Button ändern */
+
+const form = document.getElementById("myForm");
+
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  const formData = new FormData(form);
+  const color = formData.get("color");
+  const name = formData.get("name");
+  const size = formData.get("size") || "Not selected";
+  const agreed = form.elements.agree.checked ? "Yes" : "No";
+
+  alert(
+    `Your information:\nColor: ${color}\nName: ${name}\nSize: ${size}\nAgreed: ${agreed}`
+  );
+});

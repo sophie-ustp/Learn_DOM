@@ -68,7 +68,28 @@ Events ermöglichen es JavaScript, auf bestimmte Ereignisse zu reagieren.
 
 Ein Button ist ein klickbares Element. Wenn man drauf klickt, passiert im besten Fall etwas. 
 
+in HTML:
+<button type="button" id="submitBtn">Submit</button>
 
+in Javascript: 
+
+const button = document.getElementById("myButton");
+
+console.log(button.textContent); // zeigt: "Klick mich"
+button.textContent = "Angeklickt!";
+button.disabled = false;
+
+
+–––––––––––– Welche Parameter können verändert werden? ––––––––––-
+
+1. textContent
+2. type 
+3. disabled
+4. value
+5. name 
+6. title 
+7. style 
+...
 
 
 # input 
