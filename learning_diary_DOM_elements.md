@@ -117,8 +117,28 @@ in HTML:
 
 # div 
 
+div ist ein allgemeiner Bereich, ähnlich wie eine "Fraktion". 
+Vergleichbar mit "Gruppieren" bei an. Alle Inhalte in diesem bestimmten div -> 
+wenn div bewegt wird -> alle Inhalte des divs werden mitbewegt 
 
+in HTML: 
 
+<div id="myDiv">This is a div.</div> 
+
+Javascript wählt das Element hier wieder über die id aus:
+
+const myDiv = document.getElementById("myDiv");
+
+–––––––––– Welche Parameter können verändert werden? ––––––––––-
+
+1. id 
+2. textContent
+3. className 
+4. classList 
+5. style 
+6. hidden 
+7. title 
+....
 
 
 

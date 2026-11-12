@@ -57,3 +57,11 @@ form.addEventListener("submit", (event) => {
 const nameInput = document.getElementById("name");
 nameInput.placeholder = "Enter your name";
 nameInput.required = true;
+
+/* Div ändern */
+
+const myDiv = document.getElementById("myDiv");
+
+myDiv.textContent = "Hello! This is a div";
+myDiv.style.backgroundColor = "pink";
+myDiv.classList.add("highlight");
