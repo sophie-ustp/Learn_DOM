@@ -144,8 +144,41 @@ const myDiv = document.getElementById("myDiv");
 
 # table 
 
+ist wie der Name schon sagt eine Tabelle. Mit Zeilen und Zellen
 
+in HTML:
 
+  <table id="myTable" border ="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Anna</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Ben</td>
+                <td>23</td>
+            </tr>
+        </tbody>
+    </table>
+
+in Javascript wieder über Id aufgerufen. 
+
+const table = document.getElementById("myTable");
+
+–––––––––– Welche Parameter können verändert werden? ––––––––––-
+1. id
+2. rows
+3. tHead (Kopfbereich)
+4. tFoot (Fußbereich)
+5. caption 
+6. style 
+7. classList 
 
 
 
@@ -153,8 +186,28 @@ const myDiv = document.getElementById("myDiv");
 
 # ul 
 
+ul steht für Ungeordnete Liste bzw. unordered list -> mit ungeordnet meint man alles außer 1., 2., 3. (-> das wäre eine ol)
+
+in HTML:
+<ul id="myList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+Javascript wählt die List dann wieder über die id aus:
+
+const list = document.getElementById("myList");
 
 
+–––––––––– Welche Parameter können verändert werden? ––––––––––-
+1. children (Unterelemente)
+2. children.length (Wie viele Listeneinträge gibt es)
+3. textContent 
+4. classList
+5. style
+
+-> children[0] ist der erste Eintrag 
 
 
 

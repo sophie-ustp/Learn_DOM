@@ -1,3 +1,5 @@
+/* ul ändern */
+
 // add a new Item 
 
 let myList = document.getElementById("myList");
@@ -73,4 +75,6 @@ const table = document.getElementById("myTable");
 console.log(table.rows.length); // Anzahl der Zeilen einschließlich Kopfzeile
 table.rows[1].cells[0].textContent = "Jakob"; // ändert "Anna"
 table.style.backgroundColor = "lightyellow";
+
+/* ul ändern */
 
