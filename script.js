@@ -31,3 +31,6 @@ let ctx = canvas.getContext("2d");
 
 ctx.fillStyle = "pink";
 ctx.fillRect(50, 30, 150, 80); 
+
+/* Formular ändern */
+

@@ -28,20 +28,81 @@ canvas.style.backgroundColor = "lightblue";
 
 # form 
 
+= Formular –> wird verwendet, um Informationen vom Benutzer zu sammeln. Zb. die Email-Adresse, den Vornamen, etc,. 
+
+in HTML sieht das dann ungefähr so aus:
+
+<form id="myForm" action="/submit" method="post">
+  <input type="text" name="username" required>
+  <input type="email" name="email">
+  <button type="submit">Send</button>
+</form>
+
+Das Formular enthält zwei Eingabefelder und einen Button. Wenn man diesen betätigt, werden die Daten abgeschickt. 
+
+–––––––––––– Wie greife ich in Javascript auf das Formular zu? ––––––––––––––––
+
+const form = document.getElementById("myForm");
+
+Hier als Konstante aufgerufen und der Struktur mit document.getElementbyId("---");
+
+–––––––––––– Welche Parameter können verändert werden? ––––––––––-
+
+in JavaScript kann man folgende Parameter verändern:
+1. action 
+2. method 
+3. name 
+4. id 
+5. elements 
+6. length 
+
+(und noch mehr)
+
+
+Properties beschreiben den Zustand oder die Einstellungen eines Formulars. 
+Methods führen Aktionen aus, und 
+Events ermöglichen es JavaScript, auf bestimmte Ereignisse zu reagieren.
+
 
 # button 
+
+Ein Button ist ein klickbares Element. Wenn man drauf klickt, passiert im besten Fall etwas. 
+
+
 
 
 # input 
 
 
+
+
+
+
+
+
 # div 
+
+
+
+
 
 
 # table 
 
+
+
+
+
+
+
+
 # ul 
+
+
+
+
+
 
 # select/option 
 
-# 
+
